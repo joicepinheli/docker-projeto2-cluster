@@ -1,6 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby  :
 
+#Criação de uma máquina com a imagem do Ubuntu sendo 1 master que irá gerenciar os demais nós, todos com IPs fixos.
 machines = {
   "master" => {"memory" => "1024", "cpu" => "1", "ip" => "100", "image" => "bento/ubuntu-22.04"},
   "node01" => {"memory" => "1024", "cpu" => "1", "ip" => "101", "image" => "bento/ubuntu-22.04"},
